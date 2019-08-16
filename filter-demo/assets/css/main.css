@@ -1,49 +1,92 @@
 body {
-	font-family: Helvetica,Arial,sans-serif;
-	font-size: 32px;
+	font-family: Akzidenz Grotesque BQ,sans-serif;
+	font-size: 14px;
+	color:papayawhip;
+	background-color:#171718; 
 }
+
 
 a {
 	color:red;
 }
 
-.nav {
-	width: 100%;
-	background-color: lightgrey;
-	padding: 10px;
-	box-shadow: 2px 2px 2px grey;
-	position: fixed;
-	top:0px;
-	left:0px;
-}
+/* When you first edit this file, you can delete everything below here. Remember you should use body to target all elements on the page first and then override them later  */
 
-.nav-item {
-	display: inline-block;
-	padding: 5px;
-	border: 1px solid black;
-	border-radius: 10px;
-}
+/* EXAMPLE CODE PLEASE REMOVE */
 
 .title {
-	font-size: 10.4vw;
-	font-family: Arial Black;
-	color:lightgrey;
-	margin-top: 75px; 
+font-family:ITC Avant Garde Gothic Pro,bold;
+font-size: 200px;
+font-weight: bold;
+text-align:left;
+text-transform:uppercase;
+letter-spacing: -15px; 
+color:ivory;
+margin-top: 30px;
+margin-left: 20px;
 }
 
-.research {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: flex-end;
-	padding: 20px;
+.subtitle {
+font-family:ITC Avant Garde Gothic Pro,bold;
+font-size: 30px;
+font-weight: bold;
+text-align:left;
+text-transform:uppercase;
+letter-spacing: -1px; 
+color:peachpuff;
+margin-top: 10px;
+margin-left: 20px;
 }
 
-.research-item {
-	flex: 0 0 24%;
-	padding: 20px;
-	font-size: 14px;
+.captions {
+	margin-top: 20px;
 }
 
-.research-item img {
-	width: 100%;
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+
+.row{
+	position:absolute;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 20px;
+  margin-top: 5px;
+}
+
+.column2 {
+  float: left;
+  width: 30%;
+  padding: 20px;
+  margin-top: 5px;
+}
+
+.row2{
+	position:absolute;
+	margin-top: 400px;
+}
+
+.column3 {
+  float: left;
+  width: 30%;
+  padding: 20px;
+  margin-top: 200px;
+}
+
+.row3: {
+position:absolute;
+margin-top: 200px;
+}
+
+.column4 {
+  float: left;
+  width: 36%;
+  padding: 20px;
+  margin-top: 5px;
+}
+
+.row4: {
+position:absolute;
+margin-top: 5px;
 }
